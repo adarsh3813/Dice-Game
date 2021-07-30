@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="diceGame.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="players player-0 player-active">
+            <h1 class="player-name">Adarsh</h1>
+            <p class="score p0-score">0</p>
+            <div class="current">
+                <p class="current-label">Current</p>
+                <p class="current-score p0-curr-score">0</p>
+            </div>
+        </div>
+        <div class="players player-1">
+            <h1 class="player-name">bhen_Tatta</h1>
+            <p class="score p1-score">0</p>
+            <div class="current">
+                <p class="current-label">Curent</p>
+                <p class="current-score p1-curr-score">0</p>
+            </div>
+        </div>
+
+        <img src="" alt="Dice" class="dice hidden">
+        <button class="btn btn-new">🌀 New Game</button>
+        <button class="btn btn-roll">🎲 Roll Dice</button>
+        <button class="btn btn-hold">🎃 Hold</button>
+    </main>
+
+    <div class="result player0-wins hidden">
+        <h1>Adarsh has won !! 🤩</h1>
+        <h2>Piss off bhen_Tatta 😈☠</h2>
+    </div>
+    <div class="result player1-wins hidden">
+        <h1>bhen_Tatta has won !! 🤩</h1>
+        <h2>Piss off Adarsh 😈 ☠</h2>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="diceGame.js"></script>
+</body>
+
+</html>
