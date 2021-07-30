@@ -27,7 +27,7 @@ const parda = document.querySelector('.overlay');
 btnRoll.addEventListener('click', function () {
     const r_no = Math.trunc(Math.random() * 6) + 1;
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${r_no}.png`;
+    diceEl.src = `img/dice-${r_no}.png`;
     if (r_no === 1) {
         currScore = 0;
         // document.querySelector(`.p${activePlayer}-curr-score`).textContent = 0;
